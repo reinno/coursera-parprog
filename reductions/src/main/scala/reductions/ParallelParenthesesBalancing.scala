@@ -74,7 +74,7 @@ object ParallelParenthesesBalancing {
         } yield x + y
 
         vOption match {
-          case Some(z) if z < 0 => None
+          case Some(z) if z < 0 && idx == 0 => None
           case other => other
         }
       }
