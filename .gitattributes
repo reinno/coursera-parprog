@@ -1,0 +1,41 @@
+# Auto detect text files and perform LF normalization
+*               text=auto
+
+*.java          text diff=java
+*.scala         text diff=scala
+*.html          text diff=html
+*.css           text
+*.js            text
+*.json          text
+*.jsp           text
+*.jspf          text
+*.properties    text
+*.sh            text
+*.svg           text
+*.tld           text
+*.txt           text
+*.xml           text
+
+
+# Documents
+*.md            text
+
+# Graphics
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.gif           binary
+*.tif           binary
+*.tiff          binary
+*.ico           binary
+*.svg           binary
+*.eps           binary
+
+# These files are binary and should be left untouched
+# (binary is a macro for -text -diff)
+*.class         binary
+*.dll           binary
+*.ear           binary
+*.jar           binary
+*.so            binary
+*.war           binary
